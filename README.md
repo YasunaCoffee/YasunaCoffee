@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Yasuna
+### Hi there 👋 I'm Yasuna 🤗
 ![ai](https://github.com/YasunaCoffee/CharaChatAI/assets/74343879/d5e3698f-1ebc-4809-9e81-cc07a8d07bfb)
 - 💕 I’m looking to collaborate on open source projects!
 - 🤗 I’m currently learning Python, Typescript, aws and machine learning.
