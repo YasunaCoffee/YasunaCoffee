@@ -1,8 +1,8 @@
-### Hi there 👋
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username={YasunaCoffee}
-)](https://github.com/anuraghazra/github-readme-stats)
-
+### Hi there 👋 I'm Yasuna
+![ai](https://github.com/YasunaCoffee/CharaChatAI/assets/74343879/d5e3698f-1ebc-4809-9e81-cc07a8d07bfb)
+- 😄 I’m looking to collaborate on open source projects!
+- 🌱 I’m currently learning Python, Typescript, aws, machine learning.
+- 💬 I'm good at translating from English to Japanese
 
 <!--
 **YasunaCoffee/YasunaCoffee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
