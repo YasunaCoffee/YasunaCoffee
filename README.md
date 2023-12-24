@@ -2,7 +2,7 @@
 #### About Me
 こんにちは！I'm Yasuna from Japan. 
 
-- ☕ I'm a full-stack engineer on my husbund's coffee roastery, and a content creator for a programming school.
+- ☕ I'm a full-stack engineer on [the coffee roastery](https://fukusukecoffee.com/), and a content creator for [a programming school](https://github.com/we-b) based on Tokyo, Shibuya.
 - 💕 I’m looking to collaborate on open source projects!
 - 🤗 I’m currently learning Python, Typescript, aws and machine learning.
 - 💬 I'm good at translating from English to Japanese.
