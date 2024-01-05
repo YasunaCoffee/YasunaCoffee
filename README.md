@@ -9,7 +9,10 @@
 
 ## CharaChatAI
 ![ai](https://github.com/YasunaCoffee/CharaChatAI/assets/74343879/d5e3698f-1ebc-4809-9e81-cc07a8d07bfb)
+CharaChatAI is created by forking ChatVRM by Pixiv.
+This application allows you to easily converse with AI characters in your browser.
 
+You can enjoy conversations with AI characters from the chat screen.
 <!--
 **YasunaCoffee/YasunaCoffee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
