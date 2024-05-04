@@ -10,7 +10,9 @@
 
 ## AITuber "YOUCHUSU"
 ![youchusu](https://github.com/YasunaCoffee/YasunaCoffee/assets/74343879/8e310e0f-15ca-4537-93f6-66eaf9ac82ac)
-Yuchusu, an AI Gal Marketer, will introduce videos and marketing books for skill improvement in marketing. You can learn how to grow businesses and brands through marketing using knowledge and strategies. 💪('ω'💪)
+Yuchusu, an AI Gal Marketer, will introduce videos and marketing books for skill improvement in marketing. 
+You can learn how to grow businesses and brands through marketing using knowledge and strategies. 💪('ω'💪)
+👉️[Youtube Channel]((https://www.youtube.com/@sns-university)
 
 ## CharaChatAI
 ![ai](https://github.com/YasunaCoffee/CharaChatAI/assets/74343879/d5e3698f-1ebc-4809-9e81-cc07a8d07bfb)
