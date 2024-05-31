@@ -5,7 +5,7 @@
 - ☕ I'm a content creator for a Coding Bootcamp based on Shibuya, Tokyo.
 - 📺️ I'm an Indie Hacker for [AIVTuber ”YOUCHUSU”](https://www.youtube.com/@sns-university)
 - 💕 I’m looking to collaborate on open source projects!
-- 🤗 I’m currently learning Python, Typescript, aws and machine learning.
+- 🤗 I’m currently learning Python, aws and machine learning.
 - 💬 I'm good at translating from English to Japanese.
 
 ## AITuber "YOUCHUSU"
