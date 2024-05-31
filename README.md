@@ -8,7 +8,7 @@
 - 🤗 I’m currently learning Python, aws and machine learning.
 - 💬 I'm good at translating from English to Japanese.
 
-## AITuber "YOUCHUSU"
+## AIVTuber "YOUCHUSU"
 ![youchusu](https://github.com/YasunaCoffee/YasunaCoffee/assets/74343879/8e310e0f-15ca-4537-93f6-66eaf9ac82ac)
 Yuchusu, an AI Gal Marketer, will introduce videos and marketing books for skill improvement in marketing. 
 You can learn how to grow businesses and brands through marketing using knowledge and strategies. 💪('ω'💪)
