@@ -2,7 +2,6 @@
 #### About Me
 こんにちは！I'm Yasuna from Japan. 
 
-- ☕ I'm a marketer for a Coding Bootcamp based on Shibuya, Tokyo.
 - 📺️ I'm an Indie Hacker for [AIVTuber ”YOUCHUSU”](https://www.youtube.com/@sns-university)
 - 💕 I’m looking to collaborate on open source projects!
 - 🤗 I’m currently learning Python, aws and machine learning.
