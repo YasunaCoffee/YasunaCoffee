@@ -4,8 +4,7 @@
 
 - 📺️ I'm an Indie Hacker for [AIVTuber ”YOUCHUSU”](https://www.youtube.com/@sns-university)
 - 💕 I’m looking to collaborate on open source projects!
-- 🤗 I’m currently learning Python, aws and machine learning.
-- 💬 I'm good at translating from English to Japanese.
+- 🤗 I’m currently learning Python, aws and AI.
 
 ## AIVTuber "YOUCHUSU"
 ![youchusu](https://github.com/YasunaCoffee/YasunaCoffee/assets/74343879/8e310e0f-15ca-4537-93f6-66eaf9ac82ac)
