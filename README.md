@@ -4,7 +4,7 @@
 
 - 📺️ I'm an Indie Hacker for [AIVTuber ”YOUCHUSU”](https://www.youtube.com/@sns-university)
 - 💕 I’m looking to collaborate on open source projects!
-- 🤗 I’m currently learning Python, aws and AI.
+- 🤗 I’m currently learning Python and AI.
 
 ## AIVTuber "YOUCHUSU"
 ![youchusu](https://github.com/YasunaCoffee/YasunaCoffee/assets/74343879/8e310e0f-15ca-4537-93f6-66eaf9ac82ac)
@@ -12,12 +12,16 @@ Yuchusu, an AI Gal Marketer, will introduce videos and marketing books for skill
 You can learn how to grow businesses and brands through marketing using knowledge and strategies. 💪('ω'💪)
 👉️[Youtube Channel]((https://www.youtube.com/@sns-university)
 
-## CharaChatAI
-![ai](https://github.com/YasunaCoffee/CharaChatAI/assets/74343879/d5e3698f-1ebc-4809-9e81-cc07a8d07bfb)
-- CharaChatAI is created by forking ChatVRM by Pixiv.
-- This application allows you to easily converse with AI characters in your browser.
-- You can enjoy conversations with AI characters from the chat screen.
-- demo(https://chara-chat-ai.vercel.app/)
+## AITuberMurmurSystem
+![ai](https://github.com/YasunaCoffee/AITuberMurmurSystem/blob/main/images/AIVTuber.png)
+-Automated Streaming System for AI VTubers
+- An automated streaming system for AI VTubers that automatically develops topics based on themes and enables interactive communication with viewers.
+Features
+- Theme-based automatic conversation generation
+- Response to viewer comments
+- Subtitle display integrated with OBS
+- Automatic generation of streaming summaries
+- 👉️[Youtube Channel]((https://www.youtube.com/@aotsukihayate)
 <!--
 **YasunaCoffee/YasunaCoffee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
