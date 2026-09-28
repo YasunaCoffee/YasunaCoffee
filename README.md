@@ -2,15 +2,30 @@
 #### About Me
 こんにちは！I'm Yasuna from Japan. 
 
+- 🛏️ I made [**futon**](https://github.com/YasunaCoffee/futon), an AI-friendly personal site engine (OSS) — [try 8 themes](https://futon.suyasuya.me/)
+- 🌙 My site: [スヤスヤ by yasuna](https://suyasuya.me/)
 - 📺️ I'm an Indie Hacker for [AIVTuber ”YOUCHUSU”](https://www.youtube.com/@sns-university)
 - 💕 I’m looking to collaborate on open source projects!
 - 🤗 I’m currently learning Python and AI.
+
+## futon 🛏️ — AI-friendly personal site engine
+[![futon](https://raw.githubusercontent.com/YasunaCoffee/futon/main/docs/images/en/hero.png)](https://github.com/YasunaCoffee/futon)
+Your content is just Markdown and images. Ask your AI "add episode 12" and it goes live — your homepage tidies itself up while you sleep.
+
+- 8 themes, switch with one line (heisei fan site, notebook, kaomoji, VHS, flip phone, window, receipt…)
+- Shelves for serials: add an episode and the list, pages, "what's new" and RSS rebuild themselves
+- Japanese / English UI
+- 👉️ [Try all 8 themes](https://futon.suyasuya.me/) / [GitHub](https://github.com/YasunaCoffee/futon) / [npm](https://www.npmjs.com/package/@yasuna/futon)
+
+```sh
+npm create futon@latest my-site
+```
 
 ## AIVTuber "YOUCHUSU"
 ![youchusu](https://github.com/YasunaCoffee/YasunaCoffee/assets/74343879/8e310e0f-15ca-4537-93f6-66eaf9ac82ac)
 Yuchusu, an AI Gal Marketer, will introduce videos and marketing books for skill improvement in marketing. 
 You can learn how to grow businesses and brands through marketing using knowledge and strategies. 💪('ω'💪)
-👉️[Youtube Channel]((https://www.youtube.com/@sns-university)
+👉️[Youtube Channel](https://www.youtube.com/@sns-university)
 
 ## AITuberMurmurSystem
 ![ai](https://github.com/YasunaCoffee/AITuberMurmurSystem/blob/main/images/AIVTuber.png)
@@ -21,7 +36,7 @@ Features
 - Response to viewer comments
 - Subtitle display integrated with OBS
 - Automatic generation of streaming summaries
-- 👉️[Youtube Channel]((https://www.youtube.com/@aotsukihayate)
+- 👉️[Youtube Channel](https://www.youtube.com/@aotsukihayate)
 <!--
 **YasunaCoffee/YasunaCoffee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
