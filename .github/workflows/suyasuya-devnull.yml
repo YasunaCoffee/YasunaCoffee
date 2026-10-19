@@ -12,8 +12,13 @@ on:
 jobs:
   commit:
     runs-on: ubuntu-latest
+    env:
+      HAS_KEY: ${{ secrets.DEVNULL_SSH_KEY != '' }} # 鍵を入れるまでは何もせずに終わる(今は毎朝の反映の報告に出る文面を手で貼っている)
     steps:
+      - if: env.HAS_KEY != 'true'
+        run: echo "DEVNULL_SSH_KEY がないので、投稿せずに終わります"
       - id: news
+        if: env.HAS_KEY == 'true'
         run: |
           body=$(node -e '
             const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
