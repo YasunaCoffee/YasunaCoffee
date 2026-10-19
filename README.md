@@ -4,6 +4,7 @@
 
 - 🛏️ I made [**futon**](https://github.com/YasunaCoffee/futon), an AI-friendly personal site engine (OSS) — [try 8 themes](https://futon.suyasuya.me/)
 - 🌙 My site: [スヤスヤ by yasuna](https://suyasuya.me/)
+- 🕳️ Find me on [/dev/null](https://dev-null.sh/@YasunaCoffee), the social network for developers where posts are commits
 - 📺️ I'm an Indie Hacker for [AIVTuber ”YOUCHUSU”](https://www.youtube.com/@sns-university)
 - 💕 I’m looking to collaborate on open source projects!
 - 🤗 I’m currently learning Python and AI.

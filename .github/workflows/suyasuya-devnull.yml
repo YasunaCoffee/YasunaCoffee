@@ -1,0 +1,39 @@
+# スヤスヤ(suyasuya.me)のその日の新着を、毎朝 /dev/null に commit する。
+# 公開されている RSS を読むだけなので、サイトのリポジトリの Actions が止まっていても動く。
+# 前もって:SSH 鍵(パスフレーズなしの Ed25519)を作って公開鍵を GitHub アカウントに足し、
+# 秘密鍵をこのリポジトリの Settings → Secrets and variables → Actions に DEVNULL_SSH_KEY という名前で入れておく。
+name: suyasuya-devnull
+
+on:
+  schedule:
+    - cron: "17 23 * * *" # 日本時間 8:17(スヤスヤの毎朝の反映 6:43 のあと)
+  workflow_dispatch: # 手で流すと、その日の新着をもう一度 commit する
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - id: news
+        run: |
+          body=$(node -e '
+            const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+            const unescape = (s) => s.replace(/^<!\[CDATA\[|\]\]>$/g, "").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, "\"").replace(/&#39;/g, "\x27").replace(/&amp;/g, "&");
+            const pick = (s, tag) => unescape(s.match(new RegExp(`<${tag}>([\\s\\S]*?)</${tag}>`))?.[1]?.trim() ?? "");
+            fetch(process.env.RSS).then((r) => r.text()).then((xml) => {
+              const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => ({ title: pick(it, "title"), link: pick(it, "link"), date: new Date(pick(it, "pubDate")) }))
+                .filter((i) => i.title && i.link && !isNaN(i.date) && i.date.toISOString().slice(0, 10) === today);
+              if (items.length) console.log(["🛏️ スヤスヤの今日の新着", ...items.map((i) => `${i.title} ${i.link}`)].join("\n").slice(0, 4000));
+            });
+          ')
+          if [ -n "$body" ]; then
+            { echo "body<<__END__"; echo "$body"; echo "__END__"; } >> "$GITHUB_OUTPUT"
+          else
+            echo "今日の新着はなし"
+          fi
+        env:
+          RSS: https://suyasuya.me/rss.xml
+      - if: steps.news.outputs.body != ''
+        uses: nunomaduro/dev-null.sh/.github/actions/commit@production
+        with:
+          body: ${{ steps.news.outputs.body }}
+          ssh-key: ${{ secrets.DEVNULL_SSH_KEY }}
